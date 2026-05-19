@@ -1,0 +1,57 @@
+{
+  "dataset": "BasicMotions",
+  "method_key": "rbf",
+  "scaling_kind": "std",
+  "state_rank": 2,
+  "static_kernel_kind": "rbf",
+  "subsample": 1,
+  "transform": {
+    "time_augmentation": true,
+    "lead_lag": false
+  },
+  "train_shape": [
+    40,
+    100,
+    7
+  ],
+  "test_shape": [
+    40,
+    100,
+    7
+  ],
+  "best_params": {
+    "scaling_kind": "std",
+    "state_rank": 2,
+    "lambda1": 1.287706576098912,
+    "lambda2": 0.11841871767010799,
+    "coupling": 0.1989820456505631,
+    "alpha1": 0.004947282942840563,
+    "alpha2": 1.346427196051659,
+    "dyadic_order": 0,
+    "C": 925.4710691695798,
+    "sigma": 10.0
+  },
+  "resolved_params": {
+    "state_rank": 2,
+    "lambda1": 1.287706576098912,
+    "lambda2": 0.11841871767010799,
+    "coupling": 0.1989820456505631,
+    "alpha1": 0.004947282942840563,
+    "alpha2": 1.346427196051659,
+    "dyadic_order": 0,
+    "sigma": 10.0,
+    "scaling_kind": "std"
+  },
+  "train_cv_score": 0.975,
+  "test_score": 0.975,
+  "refit_C": 925.4710691695798,
+  "timings": {
+    "warmup_time": 3.6677377498708665,
+    "optuna_time": 267.2475015660748,
+    "refit_time": 2.6500167567282915,
+    "test_time": 0.974766505882144
+  },
+  "run_tag": "leonhard-21__pid26955__20260503_083127",
+  "hostname": "leonhard-21",
+  "model_path": "/Home/stat/pelizzari/Nonparametric/numerical_experiments/notebooks/VSig_Github/Volterra_signature_kernel/volterra_optuna_runs_5/BasicMotions__rbf__leonhard-21__pid26955__20260503_083127.joblib"
+}

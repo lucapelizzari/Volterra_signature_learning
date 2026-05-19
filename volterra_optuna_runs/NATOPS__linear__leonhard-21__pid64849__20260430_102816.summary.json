@@ -1,0 +1,59 @@
+{
+  "dataset": "NATOPS",
+  "method_key": "linear",
+  "scaling_kind": "std",
+  "state_rank": 2,
+  "static_kernel_kind": "linear",
+  "subsample": 1,
+  "transform": {
+    "time_augmentation": true,
+    "lead_lag": false
+  },
+  "train_shape": [
+    180,
+    51,
+    25
+  ],
+  "test_shape": [
+    180,
+    51,
+    25
+  ],
+  "best_params": {
+    "scaling_kind": "std",
+    "state_rank": 2,
+    "lambda_base": 0.011020706115243889,
+    "alpha_mix": 0.8443077715467286,
+    "alpha_scale": 2.6405716852820706,
+    "coupling_ratio": 0.8863683411561141,
+    "lambda_spread_fixed": 2.979679523860367,
+    "dyadic_order": 0,
+    "C": 201.5824391143084
+  },
+  "resolved_params": {
+    "state_rank": 2,
+    "lambda1": 0.0063844669499559,
+    "lambda2": 0.019023665441546846,
+    "coupling": 0.8863683411561141,
+    "alpha1": 2.2294551952098947,
+    "alpha2": 0.4111164900721759,
+    "dyadic_order": 0,
+    "lambda_spread_fixed": 2.979679523860367,
+    "alpha_mix": 0.8443077715467286,
+    "alpha_scale": 2.6405716852820706,
+    "coupling_ratio": 0.8863683411561141,
+    "scaling_kind": "std"
+  },
+  "train_cv_score": 0.9444444444444444,
+  "test_score": 0.9277777777777778,
+  "refit_C": 201.5824391143084,
+  "timings": {
+    "warmup_time": 6.357401033863425,
+    "optuna_time": 602.8368648597971,
+    "refit_time": 3.735063279978931,
+    "test_time": 2.6429192698560655
+  },
+  "run_tag": "leonhard-21__pid64849__20260430_102816",
+  "hostname": "leonhard-21",
+  "model_path": "/Home/stat/pelizzari/Nonparametric/numerical_experiments/notebooks/Volterra_signature_kernel/volterra_optuna_runs_5/NATOPS__linear__leonhard-21__pid64849__20260430_102816.joblib"
+}

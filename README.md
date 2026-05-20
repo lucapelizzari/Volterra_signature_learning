@@ -1,5 +1,5 @@
 
-# Learning wirth Volterra Signatures
+# Learning with Volterra Signatures
 
 Code accompanying the paper [arXiv:2603.04525](https://arxiv.org/abs/2603.04525).
 

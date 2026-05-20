@@ -1,5 +1,5 @@
 git push -u origin main
-# Volterra Signature Learning
+# Learning wirth Volterra Signatures
 
 Code accompanying the paper [arXiv:2603.04525](https://arxiv.org/abs/2603.04525).
 
@@ -115,24 +115,10 @@ Large intermediate files and machine-specific cache files should not be committe
 If you use this code, please cite the accompanying paper:
 
 ```bibtex
-@article{pelizzari2026volterra,
-  title   = {Volterra signatures with applications to synthetic and real-world data},
-  author  = {Pelizzari, Luca},
-  journal = {arXiv preprint arXiv:2603.04525},
-  year    = {2026}
+@article{hager2026volterra,
+  title={The Volterra signature},
+  author={Hager, Paul P and Harang, Fabian N and Pelizzari, Luca and Tindel, Samy},
+  journal={arXiv preprint arXiv:2603.04525},
+  year={2026}
 }
 ```
-
-The numerical methods used here build on the `tensordev` package:
-
-```bibtex
-@article{tensordev2026,
-  title   = {tensordev},
-  journal = {arXiv preprint arXiv:2605.18406},
-  year    = {2026}
-}
-```
-
-## License
-
-Please see the license file of this repository.

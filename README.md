@@ -1,4 +1,4 @@
-git push -u origin main
+
 # Learning wirth Volterra Signatures
 
 Code accompanying the paper [arXiv:2603.04525](https://arxiv.org/abs/2603.04525).
